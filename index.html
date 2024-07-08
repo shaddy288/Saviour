@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saviour Technology</title>
+    <link rel="shortcut icon" href="./images/illustration/Saviour-Technologies-icon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header - Navigation -->
+    <header id="header" class="header bg-white position-sticky">
+        <nav class="navbar">
+            <div class="container d-lg-none">
+                <a class="navbar-brand fs-1" href="#"><img src="./images/illustration/Saviour-Technologies.jpg"
+                        alt="Saviour Technologies"></a>
+                <button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#mylist">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-end bg-white offcanvas-css d-lg-none" id="mylist">
+                    <div class="offcanvas-header d-flex justify-content-end align-items-end mb-0">
+                        <button class="btn-close py-3" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body fs-4 fw-light">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link text-black" href="">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="">Work</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="#features">Services</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link text-black" href="#testimonial">Clients</a></li>
+                            <ul class="nav pt-5 fs-5">
+                                <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                            class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                            class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                            class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-none d-lg-flex justify-content-between px-3 bg-white xl-nav">
+                <a class="navbar-brand fs-1" href="#"><img src="./images/illustration/Saviour-Technologies.jpg"
+                        alt="Saviour Technologies"></a>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-black" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="#testimony">Client</a></li>
+                    <li class="nav-item ps-4"><a class="nav-link nav-contact" href="#contact">Contact</a></li>
+                </ul>
+                <ul class="nav fs-5">
+                    <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                class="fa-brands fa-x-twitter"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-black"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="" main>
+        <!-- CTA -->
+        <section id="hero" class="hero" data-aos="fade-up">
+            <div class="container">
+                <div class="row hero-block flex-row-reverse">
+                    <div class="col-12 col-lg-6 d-flex align-items-center" data-aos="zoom-in-right"
+                        data-aos-duration="1000">
+                        <div class="">
+                            <img src="./images/illustration/hero.png" alt="banner-image" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                        <h1 class="hero-heading text-center text-lg-start">Promote Your Products with
+                            <span>Saviour</span> Technologies
+                        </h1>
+                        <p class="hero-text text-center text-lg-start">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Sunt quis
+                            consectetur, quo natus animi corrupti aliquam aliquid facilis temporibus mollitia id rerum,
+                            velit, quam fugit. Porro officia ullam mollitia molestiae?</p>
+                        <div
+                            class="d-flex flex-column align-items-center flex-md-row justify-content-center justify-content-lg-start">
+                            <div class="features-btn mb-3 me-md-3">
+                                <a href="#features" class="btn rounded-pill">Our Services</a>
+                            </div>
+                            <div class="contact-btn mb-3">
+                                <a href="#features" class="btn rounded-pill">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="author-skills bg-blue">
+            <div class="container">
+                <div class="row text-center text-lg-left">
+                    <!-- First Skill -->
+                    <div class="col-12 col-md-4 about-media wow zoomIn text-white " data-wow-duration="1.5s"
+                        data-wow-delay="1.2s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: zoomIn;">
+                        <span class="about-icon"><a href="javascript:void(0);"><i
+                                    class="la la-laptop-code"></i></a></span>
+                        <h4 class="small-heading main-font">Web Hosting</h4>
+                        <p class="small-text alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <!-- Second Skill -->
+                    <div class="col-12 col-md-4 about-media wow zoomIn text-white" data-wow-duration="1.5s"
+                        data-wow-delay="1.5s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.5s; animation-name: zoomIn;">
+                        <span class="about-icon"><a href="javascript:void(0);"><i class="las la-server"></i></a></span>
+                        <h4 class="small-heading main-font">Vps Servers</h4>
+                        <p class="small-text alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <!-- Third Skill -->
+                    <div class="col-12 col-md-4 about-media wow zoomIn text-white" data-wow-duration="1.5s"
+                        data-wow-delay="1.8s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.8s; animation-name: zoomIn;">
+                        <span class="about-icon"><a href="javascript:void(0);"><i
+                                    class="las la-registered"></i></a></span>
+                        <h4 class="small-heading main-font">Domain Registration</h4>
+                        <p class="small-text alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Services/features -->
+        <!-- <section id="services" class="services" data-aos="fade-up">
+            <div class="container">
+                <div class="section-heading mb-3">
+                    <span class="d-block caption text-center fw-bold">Our Services</span>
+                    <h2 class="about-heading text-center w-75 mx-auto">What We Do?</h2>
+                </div>
+                <div class="row service-block align-items-center mb-3">
+                    <div class="col-md-6 service-image">
+                        <div>
+                            <img src="./images/illustration/Designing.jpg" alt="Design">
+                        </div>
+                    </div>
+                    <div class="ps-md-5 col-md-6 service-details">
+                        <h3 class="service-domain"><i class="fa-regular fa-lightbulb"></i> Design</h3>
+                        <ul class="list-unstyled sub-domain design">
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="500">UI Design</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="1000">UX Design</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="1500">UI Consultancy
+                            </li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="2000">Design System
+                            </li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="2500">Animation</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="3000">Illustration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row service-block align-items-center mb-3 flex-md-row-reverse">
+                    <div class="col-md-6 service-image">
+                        <div>
+                            <img src="./images/illustration/web-develpment.jpg" alt="Technologies">
+                        </div>
+                    </div>
+                    <div class="col-md-6 service-details">
+                        <h3 class="service-domain"><i class="fa-solid fa-code"></i></i> Technologies</h3>
+                        <ul class="list-unstyled sub-domain tech">
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="500">Web Design</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="1000">Softwares</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="1500">Mobile Apps</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="2000">Web Apps</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="2500">Front-end</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="3000">Back-end</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row service-block align-items-center mb-3">
+                    <div class="col-md-6 service-image">
+                        <div>
+                            <img src="./images/illustration/business.jpg" alt="Design">
+                        </div>
+                    </div>
+                    <div class="ps-md-5 col-md-6 service-details">
+                        <h3 class="service-domain"><i class="fa-solid fa-briefcase"></i> Business</h3>
+                        <ul class="list-unstyled sub-domain business">
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="500">Digital Marketing
+                            </li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="1000">Branding</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="1500">Digital Name</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="2000">Brand Guidelines
+                            </li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="2500">Strategy</li>
+                            <li class="list-group-item" data-aos="fade-right" data-aos-duration="3000">S.E.O.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="about-boxes" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 heading-area text-center wow zoomIn"
+                        data-wow-duration="1s" data-wow-delay=".1s"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: zoomIn;">
+                        <span class="d-block caption text-center fw-bold">Our Services</span>
+                        <h2 class="heading">Browse our amazing <span class="d-block">design services</span></h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 col-12 wow fadeInLeft about-media" data-aos="fade-left" data-aos-duration="1000"
+                        data-wow-duration="1.5s" data-wow-delay="1s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1s; animation-name: fadeInLeft;">
+                        <div class="about-box mx-auto">
+                            <span class="d-inline-block"><i class="fa fa-pencil-alt"></i></span>
+                            <h5 class="main-font mt-25px mb-15px">UI Design</h5>
+                            <p>UI Design is the art of crafting visually appealing and user-friendly interfaces that
+                                enhance user experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 col-12 wow fadeInUp about-media-green" data-aos="fade-up" data-aos-duration="500"
+                        data-wow-duration="1.5s" data-wow-delay="1.5s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.5s; animation-name: fadeInUp;">
+                        <div class="about-box mx-auto about-box-green">
+                            <span class="d-inline-block"><i class="fa fa-cog"></i></span>
+                            <h5 class="main-font mt-25px mb-15px">UX Design</h5>
+                            <p>Empathy is at the core of UX design, ensuring that the end product is intuitive,
+                                accessible, and enjoyable to use.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 col-12 wow fadeInRight about-media" data-aos="fade-right" data-aos-duration="1000"
+                        data-wow-duration="1.5s" data-wow-delay="1s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1s; animation-name: fadeInRight;">
+                        <div class="about-box mx-auto h-100">
+                            <span class="pro-step d-inline-block"><i class="fa fa-code"></i></span>
+                            <h5 class="mt-25px mb-15px">Animations</h5>
+                            <p>Animation brings static images to life, adding movement and dynamism to visual
+                                storytelling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Work -->
+        <section id="work" class="work" data-aos="fade-up">
+            <div class="container">
+                <div class="heading-area mb-3">
+                    <span class="d-block caption text-center fw-bold">Recent Works</span>
+                    <h2 class="heading text-center mx-auto">We love what we do,<br>check out some of our latest works</h2>
+                </div>
+                <div class="row work-block mb-3 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 position-relative ">
+                        <div class="position-relative px-3">
+                            <a href="https://mayasuae.com/">
+                                <div class="work-item mb-3" data-aos="zoom-in" data-aos-duration="1500">
+                                    <img src="./images/illustration/Mayas.png" alt="Mayas" title="Mayas">
+                                </div>
+                                <p class="work-title">Mayas</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 position-relative">
+                        <div class="position-relative px-3">
+                            <a href="https://sinointlgroup.com/">
+                                <div class="work-item mb-3" data-aos="zoom-in" data-aos-duration="1500">
+                                    <img src="./images/illustration/SinomedGroup.png" alt="Sinomed Group"
+                                        title="Sinomed Group">
+                                </div>
+                                <p class="work-title">Sinomed Group</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 position-relative">
+                        <div class="position-relative px-3">
+                            <a href="https://www.radicorp.in/">
+                                <div class="work-item mb-3" data-aos="zoom-in" data-aos-duration="1500">
+                                    <img src="./images/illustration/RadioCorp.png" alt="Radio Corp" title="Radio Corp">
+                                </div>
+                                <p class="work-title">Radio Corp</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-btn mb-3 text-center">
+                    <a href="" class="btn rounded-pill">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <!-- About us -->
+        <section id="about" class="about" data-aos="fade-up">
+            <div class="container">
+                <div class="row about-block flex-row">
+                    <div class="col-12 col-lg-8 d-flex align-items-center">
+                        <div class="">
+                            <img src="./images/illustration/about.jpg" alt="about-image" />
+                        </div>
+                    </div>
+                    <div class="heading-area col-12 col-lg-4">
+                        <span class="d-block caption text-center text-lg-start fw-bold">About</span>
+                        <h2 class="heading text-center text-lg-start">About Us</h2>
+                        <p class="about-text text-center text-lg-start">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Sunt quis
+                            consectetur, quo natus animi corrupti aliquam aliquid facilis temporibus mollitia id rerum,
+                            velit, quam fugit. Porro officia ullam mollitia molestiae?</p>
+                        <p class="about-text text-center text-lg-start">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Sunt quis
+                            consectetur, quo natus animi corrupti aliquam aliquid facilis temporibus mollitia id rerum,
+                            velit, quam fugit. Porro officia ullam mollitia molestiae?</p>
+                        <div
+                            class="d-flex flex-column align-items-center flex-md-row justify-content-center justify-content-lg-start">
+                            <div class="about-btn mb-3 me-md-3">
+                                <a href="#about" class="btn rounded-pill">More About Us</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- testimonial -->
+        <section id="testimony" class="testimony" data-aos="fade-up">
+            <div class="container py-5">
+                <div class="heading-area mb-3">
+                    <span class="d-block caption text-center fw-bold">Testimony</span>
+                    <h2 class="heading text-center w-75 mx-auto">What Client Says</h2>
+                </div>
+                <div id="carouselExampleAutoplaying" data-bs-ride="carousel" class="corousel slide pointer-event">
+                    <div class="carousel-inner bg-testimony">
+                        <div class="carousel-item active">
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center container col-md-7 ">
+                                <div class="mb-4 person-img position-relative">
+                                    <img src="./images/illustration/person_1.jpg" alt="" class=" rounded-circle">
+                                    <span
+                                        class="d-flex justify-content-center align-items-center position-absolute end-0 quotes rounded-circle">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class="person-details text-center opacity-75 mt-3 p3">
+                                    <p class="mb-4 lh-lg">Far far awaay, behind the world mountains, far from the
+                                        countries Volkalia and Consonantia, there live the blind texts.</p>
+                                    <p class="name fs-5">Client-name</p>
+                                    <p class="customer">Designation-Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center container col-md-8 ">
+                                <div class="mb-4 person-img position-relative">
+                                    <img src="./images/illustration/person_2.jpg" alt="" class=" rounded-circle">
+                                    <span
+                                        class="d-flex justify-content-center align-items-center position-absolute end-0 quotes rounded-circle">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class="person-details text-center opacity-75 mt-3 p3">
+                                    <p class="mb-4 lh-lg">Far far awaay, behind the world mountains, far from the
+                                        countries Volkalia and Consonantia, there live the blind texts.</p>
+                                    <p class="name fs-5">Client-name</p>
+                                    <p class="customer">Designation-Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center container col-md-8 ">
+                                <div class="mb-4 person-img position-relative">
+                                    <img src="./images/illustration/person_3.jpg" alt="" class=" rounded-circle">
+                                    <span
+                                        class="d-flex justify-content-center align-items-center position-absolute end-0 quotes rounded-circle">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class="person-details text-center opacity-75 mt-3 p3">
+                                    <p class="mb-4 lh-lg">Far far awaay, behind the world mountains, far from the
+                                        countries Volkalia and Consonantia, there live the blind texts.</p>
+                                    <p class="name fs-5">Client-name</p>
+                                    <p class="customer">Designation-Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center container col-md-8 ">
+                                <div class="mb-4 person-img position-relative">
+                                    <img src="./images/illustration/person_4.jpg" alt="" class=" rounded-circle">
+                                    <span
+                                        class="d-flex justify-content-center align-items-center position-absolute end-0 quotes rounded-circle">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class="person-details text-center opacity-75 mt-3 p3">
+                                    <p class="mb-4 lh-lg">Far far awaay, behind the world mountains, far from the
+                                        countries Volkalia and Consonantia, there live the blind texts.</p>
+                                    <p class="name fs-5">Client-name</p>
+                                    <p class="customer">Designation-Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quotes -->
+        <section id="quote" class="quote py-5" data-aos="fade-up">
+            <div class="heading-area">
+                <h2 class="heading text-white text-center mb-3">Let's create a measurable<br/> impact on your business.</h2>
+
+            </div>
+            <div class="quote-btn text-center">
+                <a href="" class="btn rounded-pill">Design A Quote</a>
+            </div>
+        </section>
+        <!-- Contact us -->
+        <section id="contact" class="contact" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <form action="">
+                            <div class="row mb-4">
+                                <div class="col-6" data-aos="zoom-in">
+                                    <div class="form-group">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" class="form-control" id="fname" name="fname" required />
+                                    </div>
+                                </div>
+                                <div class="col-6" data-aos="zoom-in">
+                                    <div class="form-group">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" class="form-control" id="lname" name="lname" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4" data-aos="zoom-in">
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" name="email" required
+                                        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />
+                                </div>
+                            </div>
+                            <div class="row mb-4" data-aos="zoom-in">
+                                <div class="form-group">
+                                    <label for="message">Your Message</label>
+                                    <textarea name="message" id="message" cols="30" rows="5"
+                                        class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-4" data-aos="zoom-in">
+                                <div
+                                    class="d-flex flex-column align-items-center flex-md-row justify-content-center justify-content-lg-start">
+                                    <div class="form-btn mb-3 me-md-3">
+                                        <button type="submit" class="btn rounded-pill">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-4 ps-lg-5 text-center text-lg-start">
+                        <span class="caption">Contact</span>
+                        <div class="d-flex flex-column mt-3">
+                            <div class="d-flex justify-content-center justify-content-lg-start align-items-center pb-1"
+                                data-aos="fade-right" data-aos-duration="500">
+                                <i class="fa-solid fa-location-dot pe-3"></i>Location
+                            </div>
+                            <div class="d-flex justify-content-center justify-content-lg-start align-items-center pb-1"
+                                data-aos="fade-right" data-aos-duration="1000">
+                                <i class="fa-solid fa-phone pe-3"></i>Contact
+                            </div>
+                            <div class="d-flex justify-content-center justify-content-lg-start align-items-center pb-1"
+                                data-aos="fade-right" data-aos-duration="1500">
+                                <i class="fa-solid fa-envelope pe-3"></i>email
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 footer-logo">
+                    <div><img src="./images/illustration/Saviour-Tech-footer.jpg" alt="Saviour Technologies" /></div>
+                    <p class="footer-text pt-3 text-white opacity-75">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Autem sint distinctio commodi dolores iste animi suscipit perferendis
+                        cupiditate sed!</p>
+                </div>
+                <div class="col-md-6 col-lg-3 footer-nav">
+                    <h4 class="text-white">Navigation</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#work" class="text-white">Work</a></li>
+                        <li><a href="#Services" class="text-white">Services</a></li>
+                        <li><a href="#testimony" class="text-white">Clients</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 footer-services">
+                    <h4 class="text-white">Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#services" class="text-white">Design</a></li>
+                        <li><a href="#services" class="text-white">Technologies</a></li>
+                        <li><a href="#services" class="text-white">Business</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 footer-nav">
+                    <h4 class="text-white">Contact</h4>
+                    <div class="d-flex flex-column my-3">
+                        <div class="d-flex flex-column my-3">
+                            <div class="d-flex pb-1 text-white opacity-75">
+                                <i class="fa-solid fa-location-dot pe-3"></i>Location                           
+                            </div>
+                            <div class="d-flex pb-1 text-white opacity-75">
+                                <i class="fa-solid fa-phone pe-3"></i>Contact                           
+                            </div>
+                            <div class="d-flex pb-1 text-white opacity-75">
+                                <i class="fa-solid fa-envelope pe-3"></i>email
+                            </div>                            
+                        </div>
+                    </div>
+                    <h4 class="text-white">Connect</h4>
+                    <div class="d-flex mt-3">
+                        <ul class="nav list-unstyled">
+                            <li><a href="nav-item" class="nav-link text-white ps-0"><i
+                                        class="fa-brands fa-linkedin fs-4"></i></a></li>
+                            <li class="nav-item"><a href="" class="nav-link text-white ps-0"><i
+                                        class="fa-brands fa-x-twitter fs-4"></i></a></li>
+                            <li class="nav-item"><a href="" class="nav-link text-white ps-0"><i
+                                        class="fa-brands fa-facebook-f fs-4"></i></a></li>
+                            <li class="nav-item"><a href="" class="nav-link text-white ps-0"><i
+                                        class="fa-brands fa-instagram fs-4"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div class="copyright text-white text-center">
+                © Copyright <strong><span>Saviour Technologies</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="to-top d-flex align-items-center justify-content-center active">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
