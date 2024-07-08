@@ -127,6 +127,17 @@ a {
     color: var(--stdWhite);
     background-color: var(--mainColor);
 }
+/* author-skills */
+
+.about-icon i {
+    font-size: 40px;
+}
+
+.skills:hover {
+    transition: all 0.5s ease-in;
+    background-color: #EEB832;
+    color: var(--background)!important;
+}
 
 /* Services */
 .services {
@@ -516,7 +527,7 @@ label {
     vertical-align: bottom;
     transition: color .3s ease-out;
     z-index: 0;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-bottom: 50px;
 }
 
