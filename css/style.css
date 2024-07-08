@@ -141,40 +141,54 @@ a {
 
 /* Services */
 .services {
-    margin-top: 2rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
+    background-color: var(--background);
 }
 
-.service-domain {
-    padding-top: 1rem;
-    font-size: 2.4rem;
-    font-family: var(--subFont);
+.services-block {
+    background-color: var(--stdWhite);
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    border-radius: 10px ;
+    /* margin-bottom: 30px; */
+    height: 100%;
+}
+
+.services-heading h4, .services-heading i{
+    font-size: 1.3rem;
+    color: var(--mainColor);
     font-weight: 700;
 }
 
-.service-domain i {
-    color: var(--mainColor) !important;
+.services-heading i{
+    line-height: 0;
 }
 
-.design {
-    margin-left: 2.8rem;
-}
-
-.tech {
-    margin-left: 4.2rem;
-}
-
-.business {
-    margin-left: 3.5rem;
-}
-
-.sub-domain li {
-    font-size: 1.5rem;
-    padding-bottom: .5rem;
+.services-content {
+    font-size: 0.9rem;
+    color: var(--textColor);
     font-weight: 400;
+    line-height: 1.5rem;
 }
 
-.service-details
+.services-block:hover {
+    transition: all 0.5s ease;
+    background-color: var(--mainColor);
+    .services-heading h4{
+        color: var(--background);
+    }
+    .services-content{
+        color: var(--stdWhite);
+        opacity: 0.8;
+    }
+
+    .services-heading i {
+        color: var(--background);
+        transition: all 1s ease;
+        transform: rotateY(360deg);
+    }
+    transform: translateY(-15px);
+}
 
 /* Work Section */
 .work {
