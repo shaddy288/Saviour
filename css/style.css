@@ -243,7 +243,7 @@ a {
 
 /* About Section */
 .about {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     padding-bottom: 3rem;
 }
 
@@ -528,7 +528,7 @@ label {
     transition: color .3s ease-out;
     z-index: 0;
     /* padding-top: 30px; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .author-skills {
