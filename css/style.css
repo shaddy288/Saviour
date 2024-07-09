@@ -803,3 +803,29 @@ label {
 .contact .php-email-form button[type="submit"]:hover {
     background: var(--mainColor);
 }
+
+/* Services Page */
+.services-page {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/illustration/cyber-3400789_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.services-page h1 {
+    font-family: var(--subFont);
+}
+
+.service-count {
+    border: 3px solid var(--mainColor);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.service-count span {
+    font-size: 5rem;
+    font-family: var(--subFont);
+}
