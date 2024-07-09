@@ -30,7 +30,7 @@ a {
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     top: 0;
@@ -78,6 +78,11 @@ a {
 
 .offcanvas-body li a:hover {
     color: var(--mainColor) !important;
+}
+
+.active {
+    font-weight: 500;
+    color: var(--mainColor)!important;
 }
 
 /* CTA */
@@ -820,12 +825,60 @@ label {
 
 .service-count {
     border: 3px solid var(--mainColor);
+    
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 70px!important;
+    height: 70px;
+    
 }
 
-.service-count span {
-    font-size: 5rem;
+.service-count p {
     font-family: var(--subFont);
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+.service-details {
+    font-family: var(--subFont);
+    font-size: 1.2rem;
+    margin-left: -12px;
+    font-weight: bolder;
+    background-color: var(--background);
+}
+
+.service-content{
+    font-size: 0.9rem;
+}
+
+.sub-service:hover {
+    .service-count p {
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+}
+
+@media (min-width: 768px) {
+    .service-count {
+        width: 180px!important;
+        height: 180px; 
+    }
+
+    .service-count p {
+        font-size: 5rem;
+    }
+
+    .service-content {
+        margin-left: -60px;
+        background-color: var(--background);
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-count p {
+        font-size: 6rem;
+    }
+    .service-count {
+        width: 220px!important;
+        height: 220px; 
+    }
 }
