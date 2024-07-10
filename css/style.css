@@ -16,6 +16,8 @@
 * {
     box-sizing: border-box !important;
     font-family: var(--primaryFontFamily);
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -817,6 +819,12 @@ label {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.home-nav:hover {
+    color: var(--mainColor);
+    opacity: 1;
+    transition: all 0.3s ease;
 }
 
 .services-page h1 {
