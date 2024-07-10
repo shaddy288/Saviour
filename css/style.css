@@ -82,7 +82,7 @@ a {
     color: var(--mainColor) !important;
 }
 
-.active {
+.active-nav {
     font-weight: 500;
     color: var(--mainColor)!important;
 }
@@ -942,4 +942,26 @@ label {
     color: var(--textColor);
     line-height: 1.8;
     font-style: italic;
+}
+
+.accordion-item {
+    border: 1px solid #dee2e6!important;
+    margin-bottom: 10px;
+}
+.accordion-button:not(.collapsed) {
+    
+    background-color: var(--background);
+    color: var(--mainColor);
+}
+
+.accordion-button:focus {
+    box-shadow: none!important;
+}
+
+.accordion-header button {
+    font-weight: 600;
+}
+
+.accordion-body {
+    color: var(--textColor)!important;
 }
