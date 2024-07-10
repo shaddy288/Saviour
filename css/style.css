@@ -818,7 +818,7 @@ label {
 /* Services Page */
 .services-page {
     height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/illustration/cyber-3400789_1280.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/services.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -899,7 +899,7 @@ label {
 
 .about-banner {
     height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.251)), linear-gradient(to bottom, var(--mainColor), hsl(59, 85%, 37%));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/about-us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
