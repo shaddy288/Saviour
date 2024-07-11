@@ -1088,3 +1088,13 @@ label {
     border-radius: 5px ;
     height: 100%;
 }
+
+/* work page  */
+
+.work-content .technologies {
+    color: grey!important;
+}
+
+.work-content .technologies:hover {
+    color: var(--mainColor)!important;
+}
